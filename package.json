@@ -1,9 +1,15 @@
 {
   "name": "pane-full-info",
   "main": "./lib/pane-info",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Show filepath in each pane, fork of pane-info",
-  "keywords": ["pane", "info", "files", "atom", "editors"],
+  "keywords": [
+    "pane",
+    "info",
+    "files",
+    "atom",
+    "editors"
+  ],
   "repository": "https://github.com/bradens/atom-pane-info",
   "license": "MIT",
   "engines": {
