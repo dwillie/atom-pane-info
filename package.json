@@ -1,7 +1,7 @@
 {
   "name": "pane-full-info",
   "main": "./lib/pane-info",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Show filepath in each pane, fork of pane-info",
   "keywords": [
     "pane",
