@@ -1,8 +1,8 @@
-# Pane Info
+# Pane Full Info
 
-_Pane Info_ is a package for Atom, which shows the filename of each pane. This plugin is useful for those of us who keep their tabs hidden.
+_Pane Info_ is a package for Atom, which shows the filepath of each pane. This plugin is useful for those of us who keep their tabs hidden.
 
-[![Pane Info Screenshot](https://github.com/sberan/atom-pane-info/raw/master/screenshot.png)](https://atom.io/packages/pane-info)
+[![Pane Info Screenshot](https://github.com/bradens/atom-pane-info/raw/master/screenshot.png)](https://atom.io/packages/pane-full-info)
 
 ## Features <a id="features"></a>
 
@@ -13,7 +13,9 @@ _Pane Info_ is a package for Atom, which shows the filename of each pane. This p
 
 Simply run the following command:
 ```sh
-apm install pane-info
+apm install pane-full-info
 ```
 
-Or find the package in **Atom** &rarr; **Settings** &rarr; **Install** and search for "**pane-info**"
+Or find the package in **Atom** &rarr; **Settings** &rarr; **Install** and search for "**pane-full-info**"
+
+a fork of [pane-info](https://github.com/sberan/atom-pane-info)
