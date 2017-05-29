@@ -6,7 +6,6 @@ _Pane Info_ is a package for Atom, which shows the filepath of each pane. This p
 
 ## Features <a id="features"></a>
 
-  * Hidden when only one pane is visible
   * Highlights current pane in blue
 
 ## Installation <a id="installation"></a>
