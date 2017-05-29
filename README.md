@@ -2,7 +2,7 @@
 
 _Pane Info_ is a package for Atom, which shows the filepath of each pane. This plugin is useful for those of us who keep their tabs hidden.
 
-![Pane Info Screenshot](https://github.com/bradens/atom-pane-info/raw/master/screenshot.png)
+![Pane Info Screenshot](https://github.com/dwillie/atom-pane-info/raw/master/screenshot.png)
 
 ## Features <a id="features"></a>
 
