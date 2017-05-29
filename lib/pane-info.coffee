@@ -6,10 +6,11 @@ module.exports =
 
   activate: (state) ->
     @subscriptions = new CompositeDisposable
-    
+
     @subscriptions.add = atom.workspace.observePanes (pane) =>
       pane.paneInfo = paneInfo = new PaneInfoView(state)
-      atom.views.getView(pane).appendChild(paneInfo.getElement())
+      paneView = atom.views.getView(pane)
+      paneView.insertBefore(paneInfo.getElement(), paneView.firstChild)
       pane.onDidDestroy =>
         pane.paneInfo.destroy()
         pane.paneInfo = null
@@ -24,4 +25,3 @@ module.exports =
   updatePanes: ->
     atom.workspace.getPanes().forEach (pane) ->
       pane.paneInfo?.update(pane);
-

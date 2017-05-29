@@ -17,7 +17,7 @@ class PaneInfoView
     activeItem = pane.getActiveItem()
     visiblePanes = (p for p in atom.workspace.getPanes() when p.paneInfo)
     if visiblePanes.length > 1 and activeItem instanceof TextEditor
-      @element.textContent = activeItem.buffer.file.path.substring(process.env.PWD.length + 1)
+      @element.textContent = activeItem.buffer.file.path
       @element.hidden = false
       if pane.isActive()
         @element.classList.add('active')

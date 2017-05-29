@@ -1,16 +1,17 @@
 {
-  "name": "pane-full-info",
+  "name": "pane-titles",
   "main": "./lib/pane-info",
   "version": "2.0.0",
-  "description": "Show filepath in each pane, fork of pane-info",
+  "description": "Show full filepath in each pane, full-width and centered at the top of each pane. Ideal for people who don't use tabs. Fork of bradens/atom-pane-info",
   "keywords": [
     "pane",
     "info",
     "files",
     "atom",
     "editors"
+    "title"
   ],
-  "repository": "https://github.com/bradens/atom-pane-info",
+  "repository": "https://github.com/dwillie/atom-pane-info",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
