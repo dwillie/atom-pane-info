@@ -8,8 +8,10 @@
     "info",
     "files",
     "atom",
-    "editors"
-    "title"
+    "editors",
+    "titles",
+    "headers",
+    "path"
   ],
   "repository": "https://github.com/dwillie/atom-pane-info",
   "license": "MIT",
