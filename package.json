@@ -1,7 +1,7 @@
 {
   "name": "pane-titles",
   "main": "./lib/pane-info",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Show full filepath in each pane, full-width and centered at the top of each pane. Ideal for people who don't use tabs. Fork of bradens/atom-pane-info",
   "keywords": [
     "pane",
